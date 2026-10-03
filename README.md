@@ -108,3 +108,9 @@ python scripts/04_infer_and_tag.py --weights models/best.pt --input data/scans/e
 ## 👥 Contributors
 
 Developed as part of the VEO Hackathon Challenge.
+
+---
+
+## 👥 Authors
+
+- Name: **Pradip Nath**, **Thang Ngo**
