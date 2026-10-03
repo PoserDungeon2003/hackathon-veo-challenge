@@ -9,4 +9,4 @@ wheels/
 # Virtual environments
 .venv
 main.py
-data/background/cloud_0.e57
+data/scans/cloud_0.e57
