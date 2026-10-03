@@ -9,4 +9,7 @@ wheels/
 # Virtual environments
 .venv
 main.py
-data/scans/cloud_0.e57
+data/scans/
+data/synthetic
+yolov8s.pt
+runs/
