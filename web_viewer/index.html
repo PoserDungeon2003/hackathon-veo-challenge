@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>VEO360 Digital Twin - Automated Tag Viewer</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.css"/>
+  <script src="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.js"></script>
+  <style>
+    body, html { margin: 0; padding: 0; width: 100%; height: 100%; overflow: hidden; font-family: -apple-system, sans-serif; }
+    #panorama { width: 100%; height: 100%; }
+    .custom-hotspot {
+      width: 28px; height: 28px; background: rgba(0, 168, 255, 0.9);
+      border: 2px solid #ffffff; border-radius: 50%; cursor: pointer;
+      box-shadow: 0 0 12px rgba(0, 168, 255, 0.8);
+      animation: pulse 1.8s infinite;
+    }
+    @keyframes pulse {
+      0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(0, 168, 255, 0.7); }
+      70% { transform: scale(1.15); box-shadow: 0 0 0 10px rgba(0, 168, 255, 0); }
+      100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(0, 168, 255, 0); }
+    }
+    #modal {
+      display: none; position: fixed; right: 24px; top: 24px; width: 340px;
+      background: rgba(18, 20, 26, 0.95); color: #fff; padding: 20px;
+      border-radius: 12px; border: 1px solid rgba(255, 255, 255, 0.15);
+      backdrop-filter: blur(8px); z-index: 9999; box-shadow: 0 8px 32px rgba(0,0,0,0.5);
+    }
+    #modal h3 { margin: 0 0 8px 0; color: #00d2d3; font-size: 1.15rem; }
+    #modal p { margin: 6px 0; font-size: 0.88rem; color: #dcdde1; }
+    #modal a {
+      display: inline-block; margin-top: 12px; padding: 8px 14px;
+      background: #0984e3; color: #fff; text-decoration: none; border-radius: 6px;
+      font-weight: 600; font-size: 0.85rem;
+    }
+    #modal .close-btn { position: absolute; right: 12px; top: 10px; cursor: pointer; color: #aaa; }
+  </style>
+</head>
+<body>
+  <div id="panorama"></div>
+
+  <div id="modal">
+    <span class="close-btn" onclick="document.getElementById('modal').style.display='none'">✕</span>
+    <h3 id="modal-title">Asset Info</h3>
+    <p><strong>Tag ID:</strong> <span id="modal-tag"></span></p>
+    <p><strong>Status:</strong> <span id="modal-status" style="color: #4cd137;"></span></p>
+    <p><strong>Confidence:</strong> <span id="modal-conf"></span></p>
+    <p><strong>Location:</strong> <span id="modal-coords"></span></p>
+    <a id="modal-link" href="#" target="_blank">View Technical Manual ↗</a>
+  </div>
+
+  <script>
+    fetch('tags.json')
+      .then(res => res.json())
+      .then(data => {
+        // Find tags for our demo scan
+        const targetScan = "projected_scan_4.jpg";
+        const tags = data.tags.filter(t => t.source_scan === targetScan);
+
+        const hotspots = tags.map(tag => ({
+          pitch: tag.spatial_anchor_3d.spherical.pitch_deg,
+          yaw: tag.spatial_anchor_3d.spherical.yaw_deg,
+          cssClass: 'custom-hotspot',
+          clickHandlerFunc: () => showModal(tag)
+        }));
+
+        pannellum.viewer('panorama', {
+          type: 'equirectangular',
+          // Adjust path relative to web_viewer directory
+          panorama: '../data/scans/extracted/' + targetScan,
+          autoLoad: true,
+          compass: true,
+          hotSpots: hotspots
+        });
+      });
+
+    function showModal(tag) {
+      document.getElementById('modal-title').innerText = tag.metadata.asset_name;
+      document.getElementById('modal-tag').innerText = tag.tag_id;
+      document.getElementById('modal-status').innerText = tag.metadata.status;
+      document.getElementById('modal-conf').innerText = (tag.confidence * 100).toFixed(1) + '%';
+      document.getElementById('modal-coords').innerText = 
+        `X: ${tag.spatial_anchor_3d.cartesian_3d.x}m, Y: ${tag.spatial_anchor_3d.cartesian_3d.y}m, Z: ${tag.spatial_anchor_3d.cartesian_3d.z}m`;
+      document.getElementById('modal-link').href = tag.metadata.documentation_url;
+      document.getElementById('modal').style.display = 'block';
+    }
+  </script>
+</body>
+</html>
