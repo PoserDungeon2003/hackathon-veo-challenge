@@ -8,7 +8,7 @@ wheels/
 
 # Virtual environments
 .venv
-data/scans/
-data/synthetic
+data/scans/cloud_0.e57
+# data/synthetic
 yolov8s.pt
-runs/
+# runs/
