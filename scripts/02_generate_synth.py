@@ -223,7 +223,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--count",
         type=int,
-        default=500,
+        default=1000,
         help="Number of synthetic samples to synthesize",
     )
 
