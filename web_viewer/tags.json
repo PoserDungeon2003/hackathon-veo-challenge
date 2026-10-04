@@ -1,27 +1,27 @@
 {
   "project": "VEO360 Digital Twin Intelligent Tagging",
-  "total_tags_created": 24,
+  "total_tags_created": 8,
   "tags": [
     {
       "tag_id": "TAG-0001",
-      "source_scan": "projected_scan_4.jpg",
+      "source_scan": "projected_scan_12.jpg",
       "asset_key": "REX615",
-      "confidence": 0.528,
+      "confidence": 0.468,
       "2d_bounding_box": {
-        "x1": 1159,
-        "y1": 11,
-        "x2": 2047,
-        "y2": 590
+        "x1": 0,
+        "y1": 175,
+        "x2": 669,
+        "y2": 1024
       },
       "spatial_anchor_3d": {
         "spherical": {
-          "yaw_deg": 101.78,
-          "pitch_deg": 37.18
+          "yaw_deg": -121.2,
+          "pitch_deg": -15.38
         },
         "cartesian_3d": {
-          "x": 1.95,
-          "y": 1.511,
-          "z": -0.407,
+          "x": -2.062,
+          "y": -0.663,
+          "z": -1.249,
           "estimated_distance_m": 2.5
         }
       },
@@ -38,24 +38,24 @@
     },
     {
       "tag_id": "TAG-0002",
-      "source_scan": "projected_scan_12.jpg",
+      "source_scan": "projected_scan_13.jpg",
       "asset_key": "REX615",
-      "confidence": 0.865,
+      "confidence": 0.431,
       "2d_bounding_box": {
-        "x1": 1376,
-        "y1": 11,
+        "x1": 1471,
+        "y1": 79,
         "x2": 2048,
-        "y2": 627
+        "y2": 938
       },
       "spatial_anchor_3d": {
         "spherical": {
-          "yaw_deg": 120.94,
-          "pitch_deg": 33.93
+          "yaw_deg": 129.29,
+          "pitch_deg": 0.62
         },
         "cartesian_3d": {
-          "x": 1.779,
-          "y": 1.395,
-          "z": -1.066,
+          "x": 1.935,
+          "y": 0.027,
+          "z": -1.583,
           "estimated_distance_m": 2.5
         }
       },
@@ -72,30 +72,28 @@
     },
     {
       "tag_id": "TAG-0003",
-      "source_scan": "projected_scan_12.jpg",
+      "source_scan": "projected_scan_11.jpg",
       "asset_key": "REX615",
-      "confidence": 0.385,
+      "confidence": 0.392,
       "2d_bounding_box": {
-        "x1": 1091,
-        "y1": 0,
-        "x2": 2048,
-        "y2": 611
+        "x1": 2,
+        "y1": 139,
+        "x2": 704,
+        "y2": 1024
       },
       "spatial_anchor_3d": {
         "spherical": {
-          "yaw_deg": 95.89,
-          "pitch_deg": 36.3
+          "yaw_deg": -117.95,
+          "pitch_deg": -12.22
         },
         "cartesian_3d": {
-          "x": 2.004,
-          "y": 1.48,
-          "z": -0.207,
+          "x": -2.158,
+          "y": -0.529,
+          "z": -1.145,
           "estimated_distance_m": 2.5
         }
       },
-      "extracted_ocr_tokens": [
-        "[TAG-0002]REXOTS (0.87)"
-      ],
+      "extracted_ocr_tokens": [],
       "metadata": {
         "asset_name": "ABB Relion REX615 Protection & Control Relay",
         "category": "Medium-Voltage Protection",
@@ -108,24 +106,24 @@
     },
     {
       "tag_id": "TAG-0004",
-      "source_scan": "projected_scan_13.jpg",
+      "source_scan": "projected_scan_3.jpg",
       "asset_key": "REX615",
-      "confidence": 0.756,
+      "confidence": 0.776,
       "2d_bounding_box": {
-        "x1": 1398,
-        "y1": 66,
-        "x2": 2047,
-        "y2": 725
+        "x1": 555,
+        "y1": 372,
+        "x2": 1521,
+        "y2": 1024
       },
       "spatial_anchor_3d": {
         "spherical": {
-          "yaw_deg": 122.78,
-          "pitch_deg": 20.48
+          "yaw_deg": 2.46,
+          "pitch_deg": -32.7
         },
         "cartesian_3d": {
-          "x": 1.969,
-          "y": 0.875,
-          "z": -1.268,
+          "x": 0.09,
+          "y": -1.35,
+          "z": 2.102,
           "estimated_distance_m": 2.5
         }
       },
@@ -142,29 +140,29 @@
     },
     {
       "tag_id": "TAG-0005",
-      "source_scan": "projected_scan_13.jpg",
+      "source_scan": "projected_scan_3.jpg",
       "asset_key": "REX615",
-      "confidence": 0.416,
+      "confidence": 0.554,
       "2d_bounding_box": {
-        "x1": 1214,
-        "y1": 19,
-        "x2": 2047,
-        "y2": 687
+        "x1": 362,
+        "y1": 3,
+        "x2": 1146,
+        "y2": 633
       },
       "spatial_anchor_3d": {
         "spherical": {
-          "yaw_deg": 106.61,
-          "pitch_deg": 27.95
+          "yaw_deg": -47.46,
+          "pitch_deg": 34.1
         },
         "cartesian_3d": {
-          "x": 2.116,
-          "y": 1.172,
-          "z": -0.631,
+          "x": -1.525,
+          "y": 1.402,
+          "z": 1.4,
           "estimated_distance_m": 2.5
         }
       },
       "extracted_ocr_tokens": [
-        "[TAG-0004] REX615 ("
+        "[TAG-0004] REX615 (0.78)"
       ],
       "metadata": {
         "asset_name": "ABB Relion REX615 Protection & Control Relay",
@@ -178,24 +176,24 @@
     },
     {
       "tag_id": "TAG-0006",
-      "source_scan": "projected_scan_5.jpg",
+      "source_scan": "projected_scan_17.jpg",
       "asset_key": "REX615",
-      "confidence": 0.54,
+      "confidence": 0.356,
       "2d_bounding_box": {
-        "x1": 1272,
-        "y1": 0,
-        "x2": 2047,
-        "y2": 623
+        "x1": 0,
+        "y1": 3,
+        "x2": 641,
+        "y2": 382
       },
       "spatial_anchor_3d": {
         "spherical": {
-          "yaw_deg": 111.71,
-          "pitch_deg": 35.24
+          "yaw_deg": -123.66,
+          "pitch_deg": 56.16
         },
         "cartesian_3d": {
-          "x": 1.897,
-          "y": 1.443,
-          "z": -0.755,
+          "x": -1.159,
+          "y": 2.077,
+          "z": -0.772,
           "estimated_distance_m": 2.5
         }
       },
@@ -212,24 +210,24 @@
     },
     {
       "tag_id": "TAG-0007",
-      "source_scan": "projected_scan_11.jpg",
+      "source_scan": "projected_scan_0.jpg",
       "asset_key": "REX615",
-      "confidence": 0.82,
+      "confidence": 0.821,
       "2d_bounding_box": {
-        "x1": 1155,
-        "y1": 0,
-        "x2": 2048,
-        "y2": 619
+        "x1": 0,
+        "y1": 21,
+        "x2": 635,
+        "y2": 710
       },
       "spatial_anchor_3d": {
         "spherical": {
-          "yaw_deg": 101.51,
-          "pitch_deg": 35.6
+          "yaw_deg": -124.19,
+          "pitch_deg": 25.75
         },
         "cartesian_3d": {
-          "x": 1.992,
-          "y": 1.455,
-          "z": -0.406,
+          "x": -1.863,
+          "y": 1.086,
+          "z": -1.265,
           "estimated_distance_m": 2.5
         }
       },
@@ -246,572 +244,31 @@
     },
     {
       "tag_id": "TAG-0008",
-      "source_scan": "projected_scan_11.jpg",
-      "asset_key": "REX615",
-      "confidence": 0.813,
-      "2d_bounding_box": {
-        "x1": 1479,
-        "y1": 8,
-        "x2": 2048,
-        "y2": 617
-      },
-      "spatial_anchor_3d": {
-        "spherical": {
-          "yaw_deg": 129.99,
-          "pitch_deg": 35.07
-        },
-        "cartesian_3d": {
-          "x": 1.568,
-          "y": 1.436,
-          "z": -1.315,
-          "estimated_distance_m": 2.5
-        }
-      },
-      "extracted_ocr_tokens": [],
-      "metadata": {
-        "asset_name": "ABB Relion REX615 Protection & Control Relay",
-        "category": "Medium-Voltage Protection",
-        "manufacturer": "ABB",
-        "documentation_url": "https://search.abb.com/library/Download.aspx?DocumentID=1MRS756378",
-        "wiring_diagram_url": "https://library.e.abb.com/public/rex615_wiring.pdf",
-        "status": "Operational",
-        "last_inspection": "2026-03-15"
-      }
-    },
-    {
-      "tag_id": "TAG-0009",
-      "source_scan": "projected_scan_11.jpg",
-      "asset_key": "REX615",
-      "confidence": 0.629,
-      "2d_bounding_box": {
-        "x1": 1644,
-        "y1": 34,
-        "x2": 2047,
-        "y2": 612
-      },
-      "spatial_anchor_3d": {
-        "spherical": {
-          "yaw_deg": 144.4,
-          "pitch_deg": 33.22
-        },
-        "cartesian_3d": {
-          "x": 1.217,
-          "y": 1.37,
-          "z": -1.701,
-          "estimated_distance_m": 2.5
-        }
-      },
-      "extracted_ocr_tokens": [],
-      "metadata": {
-        "asset_name": "ABB Relion REX615 Protection & Control Relay",
-        "category": "Medium-Voltage Protection",
-        "manufacturer": "ABB",
-        "documentation_url": "https://search.abb.com/library/Download.aspx?DocumentID=1MRS756378",
-        "wiring_diagram_url": "https://library.e.abb.com/public/rex615_wiring.pdf",
-        "status": "Operational",
-        "last_inspection": "2026-03-15"
-      }
-    },
-    {
-      "tag_id": "TAG-0010",
-      "source_scan": "projected_scan_10.jpg",
-      "asset_key": "REX615",
-      "confidence": 0.629,
-      "2d_bounding_box": {
-        "x1": 1179,
-        "y1": 0,
-        "x2": 2048,
-        "y2": 546
-      },
-      "spatial_anchor_3d": {
-        "spherical": {
-          "yaw_deg": 103.62,
-          "pitch_deg": 42.01
-        },
-        "cartesian_3d": {
-          "x": 1.805,
-          "y": 1.673,
-          "z": -0.438,
-          "estimated_distance_m": 2.5
-        }
-      },
-      "extracted_ocr_tokens": [],
-      "metadata": {
-        "asset_name": "ABB Relion REX615 Protection & Control Relay",
-        "category": "Medium-Voltage Protection",
-        "manufacturer": "ABB",
-        "documentation_url": "https://search.abb.com/library/Download.aspx?DocumentID=1MRS756378",
-        "wiring_diagram_url": "https://library.e.abb.com/public/rex615_wiring.pdf",
-        "status": "Operational",
-        "last_inspection": "2026-03-15"
-      }
-    },
-    {
-      "tag_id": "TAG-0011",
-      "source_scan": "projected_scan_6.jpg",
-      "asset_key": "REX615",
-      "confidence": 0.556,
-      "2d_bounding_box": {
-        "x1": 1284,
-        "y1": 0,
-        "x2": 2048,
-        "y2": 602
-      },
-      "spatial_anchor_3d": {
-        "spherical": {
-          "yaw_deg": 112.85,
-          "pitch_deg": 37.09
-        },
-        "cartesian_3d": {
-          "x": 1.838,
-          "y": 1.508,
-          "z": -0.774,
-          "estimated_distance_m": 2.5
-        }
-      },
-      "extracted_ocr_tokens": [],
-      "metadata": {
-        "asset_name": "ABB Relion REX615 Protection & Control Relay",
-        "category": "Medium-Voltage Protection",
-        "manufacturer": "ABB",
-        "documentation_url": "https://search.abb.com/library/Download.aspx?DocumentID=1MRS756378",
-        "wiring_diagram_url": "https://library.e.abb.com/public/rex615_wiring.pdf",
-        "status": "Operational",
-        "last_inspection": "2026-03-15"
-      }
-    },
-    {
-      "tag_id": "TAG-0012",
-      "source_scan": "projected_scan_2.jpg",
-      "asset_key": "REX615",
-      "confidence": 0.483,
-      "2d_bounding_box": {
-        "x1": 1392,
-        "y1": 17,
-        "x2": 2048,
-        "y2": 504
-      },
-      "spatial_anchor_3d": {
-        "spherical": {
-          "yaw_deg": 122.34,
-          "pitch_deg": 44.21
-        },
-        "cartesian_3d": {
-          "x": 1.514,
-          "y": 1.743,
-          "z": -0.959,
-          "estimated_distance_m": 2.5
-        }
-      },
-      "extracted_ocr_tokens": [],
-      "metadata": {
-        "asset_name": "ABB Relion REX615 Protection & Control Relay",
-        "category": "Medium-Voltage Protection",
-        "manufacturer": "ABB",
-        "documentation_url": "https://search.abb.com/library/Download.aspx?DocumentID=1MRS756378",
-        "wiring_diagram_url": "https://library.e.abb.com/public/rex615_wiring.pdf",
-        "status": "Operational",
-        "last_inspection": "2026-03-15"
-      }
-    },
-    {
-      "tag_id": "TAG-0013",
-      "source_scan": "projected_scan_2.jpg",
-      "asset_key": "REX615",
-      "confidence": 0.468,
-      "2d_bounding_box": {
-        "x1": 1318,
-        "y1": 385,
-        "x2": 2047,
-        "y2": 855
-      },
-      "spatial_anchor_3d": {
-        "spherical": {
-          "yaw_deg": 115.75,
-          "pitch_deg": -18.98
-        },
-        "cartesian_3d": {
-          "x": 2.129,
-          "y": -0.813,
-          "z": -1.027,
-          "estimated_distance_m": 2.5
-        }
-      },
-      "extracted_ocr_tokens": [],
-      "metadata": {
-        "asset_name": "ABB Relion REX615 Protection & Control Relay",
-        "category": "Medium-Voltage Protection",
-        "manufacturer": "ABB",
-        "documentation_url": "https://search.abb.com/library/Download.aspx?DocumentID=1MRS756378",
-        "wiring_diagram_url": "https://library.e.abb.com/public/rex615_wiring.pdf",
-        "status": "Operational",
-        "last_inspection": "2026-03-15"
-      }
-    },
-    {
-      "tag_id": "TAG-0014",
-      "source_scan": "projected_scan_14.jpg",
-      "asset_key": "REX615",
-      "confidence": 0.82,
-      "2d_bounding_box": {
-        "x1": 1452,
-        "y1": 59,
-        "x2": 2048,
-        "y2": 682
-      },
-      "spatial_anchor_3d": {
-        "spherical": {
-          "yaw_deg": 127.62,
-          "pitch_deg": 24.87
-        },
-        "cartesian_3d": {
-          "x": 1.797,
-          "y": 1.052,
-          "z": -1.384,
-          "estimated_distance_m": 2.5
-        }
-      },
-      "extracted_ocr_tokens": [],
-      "metadata": {
-        "asset_name": "ABB Relion REX615 Protection & Control Relay",
-        "category": "Medium-Voltage Protection",
-        "manufacturer": "ABB",
-        "documentation_url": "https://search.abb.com/library/Download.aspx?DocumentID=1MRS756378",
-        "wiring_diagram_url": "https://library.e.abb.com/public/rex615_wiring.pdf",
-        "status": "Operational",
-        "last_inspection": "2026-03-15"
-      }
-    },
-    {
-      "tag_id": "TAG-0015",
-      "source_scan": "projected_scan_14.jpg",
-      "asset_key": "REX615",
-      "confidence": 0.667,
-      "2d_bounding_box": {
-        "x1": 1666,
-        "y1": 80,
-        "x2": 2048,
-        "y2": 674
-      },
-      "spatial_anchor_3d": {
-        "spherical": {
-          "yaw_deg": 146.43,
-          "pitch_deg": 23.73
-        },
-        "cartesian_3d": {
-          "x": 1.266,
-          "y": 1.006,
-          "z": -1.907,
-          "estimated_distance_m": 2.5
-        }
-      },
-      "extracted_ocr_tokens": [],
-      "metadata": {
-        "asset_name": "ABB Relion REX615 Protection & Control Relay",
-        "category": "Medium-Voltage Protection",
-        "manufacturer": "ABB",
-        "documentation_url": "https://search.abb.com/library/Download.aspx?DocumentID=1MRS756378",
-        "wiring_diagram_url": "https://library.e.abb.com/public/rex615_wiring.pdf",
-        "status": "Operational",
-        "last_inspection": "2026-03-15"
-      }
-    },
-    {
-      "tag_id": "TAG-0016",
-      "source_scan": "projected_scan_3.jpg",
-      "asset_key": "REX615",
-      "confidence": 0.715,
-      "2d_bounding_box": {
-        "x1": 1488,
-        "y1": 46,
-        "x2": 2048,
-        "y2": 618
-      },
-      "spatial_anchor_3d": {
-        "spherical": {
-          "yaw_deg": 130.78,
-          "pitch_deg": 31.64
-        },
-        "cartesian_3d": {
-          "x": 1.612,
-          "y": 1.311,
-          "z": -1.39,
-          "estimated_distance_m": 2.5
-        }
-      },
-      "extracted_ocr_tokens": [],
-      "metadata": {
-        "asset_name": "ABB Relion REX615 Protection & Control Relay",
-        "category": "Medium-Voltage Protection",
-        "manufacturer": "ABB",
-        "documentation_url": "https://search.abb.com/library/Download.aspx?DocumentID=1MRS756378",
-        "wiring_diagram_url": "https://library.e.abb.com/public/rex615_wiring.pdf",
-        "status": "Operational",
-        "last_inspection": "2026-03-15"
-      }
-    },
-    {
-      "tag_id": "TAG-0017",
-      "source_scan": "projected_scan_3.jpg",
-      "asset_key": "REX615",
-      "confidence": 0.676,
-      "2d_bounding_box": {
-        "x1": 1660,
-        "y1": 67,
-        "x2": 2048,
-        "y2": 586
-      },
-      "spatial_anchor_3d": {
-        "spherical": {
-          "yaw_deg": 145.9,
-          "pitch_deg": 32.61
-        },
-        "cartesian_3d": {
-          "x": 1.181,
-          "y": 1.347,
-          "z": -1.744,
-          "estimated_distance_m": 2.5
-        }
-      },
-      "extracted_ocr_tokens": [],
-      "metadata": {
-        "asset_name": "ABB Relion REX615 Protection & Control Relay",
-        "category": "Medium-Voltage Protection",
-        "manufacturer": "ABB",
-        "documentation_url": "https://search.abb.com/library/Download.aspx?DocumentID=1MRS756378",
-        "wiring_diagram_url": "https://library.e.abb.com/public/rex615_wiring.pdf",
-        "status": "Operational",
-        "last_inspection": "2026-03-15"
-      }
-    },
-    {
-      "tag_id": "TAG-0018",
-      "source_scan": "projected_scan_3.jpg",
-      "asset_key": "REX615",
-      "confidence": 0.387,
-      "2d_bounding_box": {
-        "x1": 0,
-        "y1": 411,
-        "x2": 551,
-        "y2": 1023
-      },
-      "spatial_anchor_3d": {
-        "spherical": {
-          "yaw_deg": -131.57,
-          "pitch_deg": -36.04
-        },
-        "cartesian_3d": {
-          "x": -1.512,
-          "y": -1.471,
-          "z": -1.341,
-          "estimated_distance_m": 2.5
-        }
-      },
-      "extracted_ocr_tokens": [],
-      "metadata": {
-        "asset_name": "ABB Relion REX615 Protection & Control Relay",
-        "category": "Medium-Voltage Protection",
-        "manufacturer": "ABB",
-        "documentation_url": "https://search.abb.com/library/Download.aspx?DocumentID=1MRS756378",
-        "wiring_diagram_url": "https://library.e.abb.com/public/rex615_wiring.pdf",
-        "status": "Operational",
-        "last_inspection": "2026-03-15"
-      }
-    },
-    {
-      "tag_id": "TAG-0019",
-      "source_scan": "projected_scan_1.jpg",
-      "asset_key": "REX615",
-      "confidence": 0.638,
-      "2d_bounding_box": {
-        "x1": 1471,
-        "y1": 21,
-        "x2": 2047,
-        "y2": 753
-      },
-      "spatial_anchor_3d": {
-        "spherical": {
-          "yaw_deg": 129.2,
-          "pitch_deg": 21.97
-        },
-        "cartesian_3d": {
-          "x": 1.797,
-          "y": 0.935,
-          "z": -1.465,
-          "estimated_distance_m": 2.5
-        }
-      },
-      "extracted_ocr_tokens": [],
-      "metadata": {
-        "asset_name": "ABB Relion REX615 Protection & Control Relay",
-        "category": "Medium-Voltage Protection",
-        "manufacturer": "ABB",
-        "documentation_url": "https://search.abb.com/library/Download.aspx?DocumentID=1MRS756378",
-        "wiring_diagram_url": "https://library.e.abb.com/public/rex615_wiring.pdf",
-        "status": "Operational",
-        "last_inspection": "2026-03-15"
-      }
-    },
-    {
-      "tag_id": "TAG-0020",
-      "source_scan": "projected_scan_1.jpg",
-      "asset_key": "REX615",
-      "confidence": 0.573,
-      "2d_bounding_box": {
-        "x1": 1597,
-        "y1": 25,
-        "x2": 2048,
-        "y2": 527
-      },
-      "spatial_anchor_3d": {
-        "spherical": {
-          "yaw_deg": 140.36,
-          "pitch_deg": 41.48
-        },
-        "cartesian_3d": {
-          "x": 1.195,
-          "y": 1.656,
-          "z": -1.442,
-          "estimated_distance_m": 2.5
-        }
-      },
-      "extracted_ocr_tokens": [],
-      "metadata": {
-        "asset_name": "ABB Relion REX615 Protection & Control Relay",
-        "category": "Medium-Voltage Protection",
-        "manufacturer": "ABB",
-        "documentation_url": "https://search.abb.com/library/Download.aspx?DocumentID=1MRS756378",
-        "wiring_diagram_url": "https://library.e.abb.com/public/rex615_wiring.pdf",
-        "status": "Operational",
-        "last_inspection": "2026-03-15"
-      }
-    },
-    {
-      "tag_id": "TAG-0021",
-      "source_scan": "projected_scan_1.jpg",
+      "source_scan": "projected_scan_0.jpg",
       "asset_key": "REX615",
       "confidence": 0.454,
       "2d_bounding_box": {
-        "x1": 432,
-        "y1": 0,
-        "x2": 1792,
-        "y2": 618
-      },
-      "spatial_anchor_3d": {
-        "spherical": {
-          "yaw_deg": 15.47,
-          "pitch_deg": 35.68
-        },
-        "cartesian_3d": {
-          "x": 0.542,
-          "y": 1.458,
-          "z": 1.957,
-          "estimated_distance_m": 2.5
-        }
-      },
-      "extracted_ocr_tokens": [],
-      "metadata": {
-        "asset_name": "ABB Relion REX615 Protection & Control Relay",
-        "category": "Medium-Voltage Protection",
-        "manufacturer": "ABB",
-        "documentation_url": "https://search.abb.com/library/Download.aspx?DocumentID=1MRS756378",
-        "wiring_diagram_url": "https://library.e.abb.com/public/rex615_wiring.pdf",
-        "status": "Operational",
-        "last_inspection": "2026-03-15"
-      }
-    },
-    {
-      "tag_id": "TAG-0022",
-      "source_scan": "projected_scan_16.jpg",
-      "asset_key": "REX615",
-      "confidence": 0.492,
-      "2d_bounding_box": {
-        "x1": 0,
-        "y1": 295,
-        "x2": 525,
-        "y2": 984
-      },
-      "spatial_anchor_3d": {
-        "spherical": {
-          "yaw_deg": -133.86,
-          "pitch_deg": -22.41
-        },
-        "cartesian_3d": {
-          "x": -1.667,
-          "y": -0.953,
-          "z": -1.601,
-          "estimated_distance_m": 2.5
-        }
-      },
-      "extracted_ocr_tokens": [],
-      "metadata": {
-        "asset_name": "ABB Relion REX615 Protection & Control Relay",
-        "category": "Medium-Voltage Protection",
-        "manufacturer": "ABB",
-        "documentation_url": "https://search.abb.com/library/Download.aspx?DocumentID=1MRS756378",
-        "wiring_diagram_url": "https://library.e.abb.com/public/rex615_wiring.pdf",
-        "status": "Operational",
-        "last_inspection": "2026-03-15"
-      }
-    },
-    {
-      "tag_id": "TAG-0023",
-      "source_scan": "projected_scan_0.jpg",
-      "asset_key": "REX615",
-      "confidence": 0.793,
-      "2d_bounding_box": {
-        "x1": 1,
-        "y1": 30,
-        "x2": 484,
-        "y2": 529
-      },
-      "spatial_anchor_3d": {
-        "spherical": {
-          "yaw_deg": -137.37,
-          "pitch_deg": 40.87
-        },
-        "cartesian_3d": {
-          "x": -1.28,
-          "y": 1.636,
-          "z": -1.391,
-          "estimated_distance_m": 2.5
-        }
-      },
-      "extracted_ocr_tokens": [],
-      "metadata": {
-        "asset_name": "ABB Relion REX615 Protection & Control Relay",
-        "category": "Medium-Voltage Protection",
-        "manufacturer": "ABB",
-        "documentation_url": "https://search.abb.com/library/Download.aspx?DocumentID=1MRS756378",
-        "wiring_diagram_url": "https://library.e.abb.com/public/rex615_wiring.pdf",
-        "status": "Operational",
-        "last_inspection": "2026-03-15"
-      }
-    },
-    {
-      "tag_id": "TAG-0024",
-      "source_scan": "projected_scan_0.jpg",
-      "asset_key": "REX615",
-      "confidence": 0.681,
-      "2d_bounding_box": {
-        "x1": 1514,
-        "y1": 21,
+        "x1": 1557,
+        "y1": 22,
         "x2": 2048,
-        "y2": 725
+        "y2": 954
       },
       "spatial_anchor_3d": {
         "spherical": {
-          "yaw_deg": 133.07,
-          "pitch_deg": 24.43
+          "yaw_deg": 136.85,
+          "pitch_deg": 4.22
         },
         "cartesian_3d": {
-          "x": 1.663,
-          "y": 1.034,
-          "z": -1.554,
+          "x": 1.705,
+          "y": 0.184,
+          "z": -1.819,
           "estimated_distance_m": 2.5
         }
       },
-      "extracted_ocr_tokens": [],
+      "extracted_ocr_tokens": [
+        "TYS",
+        "TAOHEENED"
+      ],
       "metadata": {
         "asset_name": "ABB Relion REX615 Protection & Control Relay",
         "category": "Medium-Voltage Protection",
